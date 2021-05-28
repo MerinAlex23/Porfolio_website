@@ -1,0 +1,230 @@
+body{
+font-family: 'Montserrat', sans-serif;
+width: 100%;
+height: 100%;
+
+
+overflow-x: hidden;
+}
+#title{
+background:  #4C516D;
+color: #fff;
+margin-right: 0;
+
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-size:3rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+padding: 3% 15%;
+}
+.navbar{
+  padding:0 0 4.5rem
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size:3rem
+}
+
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:'Montserrat'
+}
+.download-button{
+  margin:5% 3% 3% 0;
+}
+.title-img{
+
+  margin-left: 40%;
+  width: 60%;
+
+}
+#features{
+  margin:0;
+  height: 50%;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+    background-color: #fff;
+
+}
+#pricing{
+  text-align: center;
+}
+.feature-box{
+  text-align: center;
+
+
+
+}
+
+.icon{
+color: #00356B;
+margin:1rem;
+}
+
+.icon:hover{
+
+  color: #126180
+}
+h3{
+  font-family:'Montserrat';
+  font-weight: bold;
+}
+
+h2{
+  font-family:'Montserrat';
+  font-size: 3rem;
+}
+.top{
+  margin: 20px 20px;
+  margin-left: 0;
+}
+
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4C516D;
+  color: white;
+  text-align: center;
+}
+
+
+.social-icons{
+  margin: 20px 10px;
+  margin-top: 0;
+}
+@media(max-width:1028px){
+  .title-img{
+    margin-left: 0;
+    text-align: center;
+    transform: rotate(0);
+    position:static;
+  }
+  #title{
+  text-align: center;
+
+
+  }
+
+
+
+
+
+}
+
+
+
+body{
+background: #ccc;
+}
+
+.skills-section{
+padding-top: 20px;
+}
+
+.skills-header{
+text-align: center;
+padding: 1rem;
+position: relative;
+}
+
+.skills-header:after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 100px;
+height: 4px;
+background-color: #2ecc71;
+border-radius: 2px;
+}
+
+.skills-container{
+display: grid;
+grid-tempLate-columns: repeat(5, 1fr);
+justify-content:center;
+align-items:center;
+text-align: center;
+grid-gap:1rem;
+padding: 1rem 80px;
+font-size: 1.2rem;
+}
+.skills-box{
+padding: 1rem;
+color: #000;
+cursor:pointer;
+}
+
+.skills-box:hover .skills-img{
+transform: translateX(-20px);
+}
+
+.skills-title{
+display:flex;
+flex-direction: column;
+align-items:center;
+padding: 0.5rem;
+margin-bottom: 0.5rem;
+position: relative;
+}
+
+
+
+.skills-icons{
+width:50px;
+z-index:2;
+}
+
+.skills-img{
+width:90px;
+height:90px;
+position: relative;
+border-radius: 45px;
+background-color: #fff;
+display:flex;
+justify-content:center;
+align-items:center;
+transition: .5s;
+}
+
+.skills-img:after{
+content: '';
+position:absolute;
+top:0;
+left: 0;
+width:50%;
+height:90px;
+background: rgba(100, 100, 100, 0.5);
+border-radius: 45px 0 0 45px;
+}
+.skills-title h3{
+color: #333;
+margin-top: 0.5rem;
+}
+@media screen and (max-width:990px){
+ .skills-container{
+ grid-tempLate-columns: repeat(2, 1fr);
+ padding: 2rem 50px;
+ }
+}
+
+@media screen and (max-width:650px){
+ .skills-container{
+ grid-tempLate-columns:2fr;
+ padding: 2rem 50px;
+ }
+}
